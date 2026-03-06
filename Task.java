@@ -21,6 +21,16 @@ public class Task {
   }
 
   public static void main(String[] args) {
+    String greeting =
+        "Лазарев Владимир, РПИб"
+            + System.lineSeparator()
+            + "Нахождение НОД и соотношения Безу"
+            + System.lineSeparator()
+            + "-------------"
+            + System.lineSeparator();
+
+    System.out.println(greeting);
+
     try (Scanner in = new Scanner(System.in)) {
       System.out.print("Value of a: ");
       long a = in.nextLong();
@@ -39,9 +49,6 @@ public class Task {
 
       System.out.printf("GCD: %d, x = %d, y = %d%n", d, res[0], res[1]);
       System.out.printf("Execution time: %.6f ms%n", (end - start) / 1_000_000.0);
-      System.out.println();
-      System.out.println("-------------");
-      System.out.println("Лазарев Владимир, РПИб");
     }
   }
 }
