@@ -1,5 +1,3 @@
-package dataStructure;
-
 import java.util.Scanner;
 
 public class Task {
