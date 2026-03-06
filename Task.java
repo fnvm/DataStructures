@@ -1,3 +1,5 @@
+package dataStructure;
+
 import java.util.Scanner;
 
 public class Task {
@@ -37,6 +39,9 @@ public class Task {
 
       System.out.printf("GCD: %d, x = %d, y = %d%n", d, res[0], res[1]);
       System.out.printf("Execution time: %.6f ms%n", (end - start) / 1_000_000.0);
+      System.out.println();
+      System.out.println("-------------");
+      System.out.println("Лазарев Владимир, РПИб");
     }
   }
 }
